@@ -17,4 +17,11 @@ server:
   port: ${PORT:8081}
 
 
+keycloak:
+  server-url: http://localhost:8080
+  realm: myrealm
+  client-id: admin-cli
+  username: admin
+  password: admin
+
 
